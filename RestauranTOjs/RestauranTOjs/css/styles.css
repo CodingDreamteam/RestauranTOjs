@@ -35,11 +35,20 @@ header .IRestauranTO {
 	height: 7%;
 }
 
+header .Sugerir {
+	width: 3%;
+	height: 3%;
+}
+
+
+header .Buscar {
+	margin-top:7px;
+	background-color: #FFFFFF; 
+
+}
+
 header .search{ 
 	margin-top:7px;
-	box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
 }
 input[type=text] {
     width: 130px;
@@ -47,9 +56,8 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 
-/* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
-    width: 70%;
+    width: 60%;
 }
 header .Login {
 	padding: 10px 15px;
