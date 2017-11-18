@@ -185,7 +185,7 @@ input[type=Texto], input[type=password] {
     background-color: #f44336;
 }
 
-/* Center the avatar image inside this container */
+
 .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
@@ -193,7 +193,7 @@ input[type=Texto], input[type=password] {
 
 
 img.avatar {
-    width: 17%;
+    width: 16%;
     border-radius: 50%;
 }
 
