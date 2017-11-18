@@ -47,13 +47,18 @@ header .Sugerir {
 
 
 header .Buscar {
-	margin-top:7px;
+	margin-top:7.5px;
+	margin-bottom:6px;
 	background-color: #FFFFFF; 
+	heigth:30px;
+	border: none;
 
 }
 
 header .search{ 
 	margin-top:7px;
+	margin-bottom:5px;
+	heigth:30px;
 }
 input[type=text] {
     width: 130px;
@@ -76,7 +81,7 @@ header .Login {
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 9px #999;
-	position: absolute; right: 3px; top: 3px;
+	position: absolute; right: 3px; top: 6px;
 }
 
 
@@ -89,6 +94,33 @@ header .Login:active {
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
+
+header .Register {
+	padding: 10px 15px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+	cursor: hand;
+	outline: none;
+	color: #fff;
+	background-color: #FF8000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	position: absolute; right: 65px; top: 6px;
+}
+
+
+header .Register:hover {
+	background-color: #DF7401
+}
+
+header .Register:active {
+	background-color: #DF7401;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
 header .Logout {
 	padding: 10px 15px;
 	font-size: 12px;
@@ -101,7 +133,7 @@ header .Logout {
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 9px #999;
-	position: absolute; right: 3px; top: 3px;
+	position: absolute; right: 3px; top: 6px;
 	
 }
 
