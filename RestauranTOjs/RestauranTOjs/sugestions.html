@@ -16,8 +16,10 @@
 			<button class="Buscar">
 				<img src="img/iconL.png" width="25px" />
 			</button>
-			<input type="text" class="search" placeholder="Buscar..."> <img
-				class="Sugerir" src="img/mail.png"> <a href="Register.html">
+			<input type="text" class="search" placeholder="Buscar..."> 
+			<a href="sugestions.html">
+			 <img class="Sugerir" src="img/mail.png">
+			 </a> <a href="Register.html">
 				<button class="Register">Registrarse</button>
 			</a> <a href="login.html">
 				<button class="Login">Login</button>
@@ -26,3 +28,23 @@
 			<button class="Logout" style="visibility: hidden;" disabled>Logout</button>
 		</div>
 	</header>
+	<form action="">
+	<div class="imgcontainer">
+			<center>
+				<img src="img/bs.jpg" class="avatar">
+			</center>
+		</div>
+	<div class="C">
+			<label><b>Nombre</b></label> <input type="Texto"
+				placeholder="Indique Nombre" name="uname" required> <label><b>Direccion</b></label>
+			<input type="Texto" placeholder="Indique Direccion" name="uemail"
+				required> <label><b>Numero Telefonico</b></label> <input
+				type="Texto" placeholder="Indique Numero" name="uname"> <label><b>Email del Establecimiento</b></label>
+			<input type="password" placeholder="Indique Email" name="psw"
+				required>
+				<label><b>Imagen del Establecimiento (Opcional)</b></label>
+				<input type="file" name="pic" accept="image/*"> 
+			<button Class="L" type="submit">Enviar Sugerencia</button>
+		</div>
+		</form>
+</body>
