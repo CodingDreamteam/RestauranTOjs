@@ -28,7 +28,8 @@ header {
 }
 header .LB {
     text-align: center;
-    margin-top:15px;
+    margin-top:17.5px;
+	color: #000000;
 	cursor: pointer;
 	cursor: hand;
 }
@@ -220,4 +221,10 @@ span.psw {
     .cancelbtn {
         width: 100%;
     }
+}
+footer {
+	font-family: 'Open Sans', sans-serif;
+	widht: 100%;
+	height: 50px;
+	background-color: #FE9A2E;
 }

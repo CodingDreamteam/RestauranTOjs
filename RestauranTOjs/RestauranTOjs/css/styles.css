@@ -27,7 +27,8 @@ header {
 }
 header .LB {
     text-align: center;
-    margin-top:15px;
+    margin-top:17.5px;
+	color: #000000;
 	cursor: pointer;
 	cursor: hand;
 }
@@ -202,4 +203,11 @@ table.redTable tfoot .links a{
   color: #DF3A01;
   padding: 2px 8px;
   border-radius: 5px;
+}
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+	widht: 100%;
+	height: 50px;
+	background-color: #FE9A2E;
 }
