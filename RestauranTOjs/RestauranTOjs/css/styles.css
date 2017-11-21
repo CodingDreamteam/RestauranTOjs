@@ -25,8 +25,11 @@ header {
 	height: 55px;
 	 background-color: #FE9A2E;
 }
-header .input {
-	
+header .LB {
+    text-align: center;
+    margin-top:15px;
+	cursor: pointer;
+	cursor: hand;
 }
 
 header .IRestauranTO {
@@ -148,4 +151,55 @@ header .Logout:active {
 }
 header .Content {
 	display: flex;
+}
+table.redTable {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 100%;
+  heigth:90%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.redTable tbody td {
+  font-size: 20px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F5C8BF;
+}
+table.redTable thead {
+  background: #DF3A01;
+}
+table.redTable thead th {
+  font-size: 29px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #DF3A01;
+}
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+table.redTable tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #DF3A01;
+}
+table.redTable tfoot td {
+  font-size: 16px;
+}
+table.redTable tfoot .links {
+  text-align: right;
+}
+table.redTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #DF3A01;
+  padding: 2px 8px;
+  border-radius: 5px;
 }

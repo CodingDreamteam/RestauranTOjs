@@ -5,8 +5,8 @@ var pw = document.getElementById('psw');
 // storing input from register-form
 function store() {
     localStorage.setItem('uname', uname.value);
-    localStorage.setItem('',);
-    localStorage.setItem('',);
+    localStorage.setItem('uemail', uemail.value);
+    localStorage.setItem('unumber', unumber.value);
     localStorage.setItem('psw', pw.value);
     
 }
