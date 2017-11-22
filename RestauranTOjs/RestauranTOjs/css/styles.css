@@ -234,11 +234,6 @@ Body .Foto {
 	height: 450px;
 }
 
-Body.Info {
-	margin-left: 14px;
-	float: right;
-}
-
 Body .Cajita {
 	border: 7px solid #FAAC58;
 	font-family: 'Spectral SC', sans-serif;
