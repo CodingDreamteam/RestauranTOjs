@@ -1,8 +1,8 @@
 @import
-	url('https://fonts.googleapis.com/css?family=Calligraffitti|Open+Sans');
+	url('https://fonts.googleapis.com/css?family=Calligraffitti|Open+Sans')
+	;
 
-@import
-    url('https://fonts.googleapis.com/css?family=Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
 
 * {
 	box-sizing: border-box;
@@ -28,11 +28,12 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
 	height: 55px;
-	 background-color: #FE9A2E;
+	background-color: #FE9A2E;
 }
+
 header .LB {
-    text-align: center;
-    margin-top:17.5px;
+	text-align: center;
+	margin-top: 17.5px;
 	color: #000000;
 	cursor: pointer;
 	cursor: hand;
@@ -46,37 +47,37 @@ header .IRestauranTO {
 }
 
 header .Sugerir {
-	margin-top:7px;
+	margin-top: 7px;
 	width: 40px;
 	height: 40px;
 	cursor: pointer;
 	cursor: hand;
 }
 
-
 header .Buscar {
-	margin-top:7.5px;
-	margin-bottom:6px;
-	background-color: #FFFFFF; 
-	heigth:30px;
+	margin-top: 7.5px;
+	margin-bottom: 6px;
+	background-color: #FFFFFF;
+	heigth: 30px;
 	border: none;
-
 }
 
-header .search{ 
-	margin-top:7px;
-	margin-bottom:5px;
-	heigth:30px;
+header .search {
+	margin-top: 7px;
+	margin-bottom: 5px;
+	heigth: 30px;
 }
+
 input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+	width: 130px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
 }
 
 input[type=text]:focus {
-    width: 60%;
+	width: 60%;
 }
+
 header .Login {
 	padding: 10px 20px;
 	font-size: 12px;
@@ -89,9 +90,10 @@ header .Login {
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 9px #999;
-	position: absolute; right: 3px; top: 6px;
+	position: absolute;
+	right: 3px;
+	top: 6px;
 }
-
 
 header .Login:hover {
 	background-color: #DF7401
@@ -115,9 +117,10 @@ header .Register {
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 9px #999;
-	position: absolute; right: 75px; top: 6px;
+	position: absolute;
+	right: 75px;
+	top: 6px;
 }
-
 
 header .Register:hover {
 	background-color: #DF7401
@@ -141,10 +144,10 @@ header .Logout {
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 9px #999;
-	position: absolute; right: 3px; top: 6px;
-	
+	position: absolute;
+	right: 3px;
+	top: 6px;
 }
-
 
 header .Logout:hover {
 	background-color: #DF7401
@@ -155,78 +158,120 @@ header .Logout:active {
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
+
 header .Content {
 	display: flex;
 }
+
 table.redTable {
-  border: 2px solid #A40808;
-  background-color: #EEE7DB;
-  width: 100%;
-  heigth:90%;
-  text-align: center;
-  border-collapse: collapse;
+	border: 2px solid #A40808;
+	background-color: #EEE7DB;
+	width: 100%;
+	heigth: 90%;
+	text-align: center;
+	border-collapse: collapse;
 }
+
 table.redTable td, table.redTable th {
-  border: 1px solid #AAAAAA;
-  padding: 3px 2px;
+	border: 1px solid #AAAAAA;
+	padding: 3px 2px;
 }
+
 table.redTable tbody td {
-  font-size: 15px;
+	font-size: 15px;
 }
+
 table.redTable tr:nth-child(even) {
-  background: #F5C8BF;
+	background: #F5C8BF;
 }
+
 table.redTable thead {
-  background: #DF3A01;
+	background: #DF3A01;
 }
+
 table.redTable thead th {
-  font-size: 20px;
-  font-weight: bold;
-  color: #FFFFFF;
-  text-align: center;
-  border-left: 2px solid #DF3A01;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	border-left: 2px solid #DF3A01;
 }
+
 table.redTable thead th:first-child {
-  border-left: none;
+	border-left: none;
 }
 
 table.redTable tfoot {
-  font-size: 13px;
-  font-weight: bold;
-  color: #FFFFFF;
-  background: #DF3A01;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #DF3A01;
 }
+
 table.redTable tfoot td {
-  font-size: 15px;
+	font-size: 15px;
 }
+
 table.redTable tfoot .links {
-  text-align: right;
+	text-align: right;
 }
-table.redTable tfoot .links a{
-  display: inline-block;
-  background: #FFFFFF;
-  color: #DF3A01;
-  padding: 2px 8px;
-  border-radius: 5px;
+
+table.redTable tfoot .links a {
+	display: inline-block;
+	background: #FFFFFF;
+	color: #DF3A01;
+	padding: 2px 8px;
+	border-radius: 5px;
 }
+
 Body .Rating {
 	margin-left: 14px;
 	margin-top: -25px;
 }
+
 Body .Foto {
 	float: left;
 	height: 450px;
 }
-Body.Info
-{
+
+Body.Info {
 	margin-left: 14px;
 	float: right;
 }
+
 Body .Cajita {
-border: 7px solid #FAAC58;
-font-family: 'Spectral SC', sans-serif;
+	border: 7px solid #FAAC58;
+	font-family: 'Spectral SC', sans-serif;
 }
-table{
+
+Body .redes {
+	margin-right: 10px;
+	float: right;
+}
+
+body .instagram {
+	height: 55px;
+	float: right;
+}
+
+Body .facebook {
+	float: right;
+}
+
+Body .Hora {
+	margin-left: 10px;
+}
+
+body .dir {
+	margin-top: -15px;
+	background: #CFCECE;
+}
+
+Body .servicios {
+	background: #CFCECE;
+}
+
+table {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -235,6 +280,4 @@ footer {
 	widht: 100%;
 	height: 50px;
 	background-color: #FE9A2E;
-	
-	
 }
